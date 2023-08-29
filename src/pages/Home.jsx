@@ -1,10 +1,10 @@
 import React from 'react'
-import { Card } from '../components/Card'
+import { Shopping } from '../components/Shopping'
 
 export const Home = () => {
   return (
     <div>
-        <Card/>
+      <Shopping/>
     </div>
   )
 }
