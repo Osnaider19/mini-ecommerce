@@ -35,8 +35,9 @@ export const Shopping = () => {
           ))}
         </article>
         <section className="py-4">
-          <button className="bg-red-500 px-3 py-1 rounded-lg" onClick={()=>{
-            dispatch(clearCart)
+          <button className="bg-red-500 px-3 py-1 rounded-lg" onClick={(e)=>{
+            dispatch(clearCart())
+            console.log(e)
           }}>Clear Cart</button>
         </section>
       </div>

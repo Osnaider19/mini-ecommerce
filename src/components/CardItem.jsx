@@ -15,15 +15,16 @@ export const CardItem = ({ data, delOneCard, delAllCard }) => {
             delOneCard(id);
           }}
         >
-          eliminar todos
+          eliminar uno
         </button>
         <button
           className="bg-red-500 px-3 py-1 rounded-lg"
           onClick={() => {
             delAllCard(id, true);
+            
           }}
         >
-          eliminar uno
+          eliminar todos
         </button>
       </div>
     </div>

@@ -43,7 +43,7 @@ export const productsSlice = createSlice({
       }
     },
     clearCart : (state) => {
-      return state.cart = initialState.cart;
+      return initialState
     }
 
   },
